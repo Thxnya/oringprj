@@ -28,7 +28,8 @@ YOLOv5의 경우 정확도가 조금 더 높은 것으로 나타났습니다.<br
 YOLOv5의 경우 정상과 불량의 판정 정확도가 높으면서 처리속도가 빠르고, <br/>
 Mask R-CNN의 경우 객체 사이의 경계를 분할해주는 성능이 높다는 각 알고리즘의 장점을 활용하여,<br/>
 YOLOv5는 정상과 불량 두가지 클래스로만 나눠서 실시간으로 판정하도록 하고 <br/>
-Mask R-CNN의 경우 불량인 영역만 학습하여 YOLOv5가 불량으로 판정한 데이터에 대해서만 오링의 불량 카테고리를 판정하는데 사용합니다. <br/>
+Mask R-CNN의 경우 불량인 영역만 학습하여 <br/>
+YOLOv5가 불량으로 판정한 데이터에 대해서만 오링의 불량 카테고리를 판정하는데 사용합니다. <br/>
 <br/>
 발생하는 불량의 카테고리마다 원인이 조금씩 다를 것이라고 생각합니다.<br/>
 판정 모델을 통해서 데이터가 수집되고 추세가 나타나면 <br/>
@@ -38,3 +39,23 @@ Mask R-CNN의 경우 불량인 영역만 학습하여 YOLOv5가 불량으로 판
 
 ⚡ 발표 자료<br/>
 ---
+## 프로젝트 구조도
+<img src="https://user-images.githubusercontent.com/104615422/201871500-6b79bb6b-55c7-43d2-9bb7-f87bc529ae9f.jpg" width="60%" height="60%">
+
+---
+
+## SinGAN
+<img src="https://user-images.githubusercontent.com/104615422/201871869-656becef-7561-4c96-a2f0-07c86835ecd7.jpg" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/104615422/201871900-fc8c82b9-f3e5-4cde-aab9-4cc68ae0a88d.jpg" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/104615422/201871914-7a1e8e75-15a1-400d-b41f-d144cecf68ac.jpg" width="60%" height="60%">
+
+---
+
+## Mask R-CNN vs YOLOv5
+<img src="https://user-images.githubusercontent.com/104615422/201872689-98fbf7c8-13d1-4060-93c6-6ef21abceca8.jpg" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/104615422/201872698-ba921105-cdaf-4018-9777-62e09e92804b.jpg" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/104615422/201872702-624bf123-8bb5-405b-8d67-f53b3616afb5.jpg" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/104615422/201872707-ffce5964-d269-4c91-8116-8b6075bdb00e.jpg" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/104615422/201872709-03e02caf-866f-4ea6-8658-3ae52b505e5b.jpg" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/104615422/201872716-23be81b2-c2c2-42a5-809a-d2f0b495ba3a.jpg" width="60%" height="60%">
+<img src="https://user-images.githubusercontent.com/104615422/201872722-00542567-7267-418f-bb63-88ac737ea8dd.jpg" width="60%" height="60%">
